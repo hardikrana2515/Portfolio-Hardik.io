@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardik's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="left">
+      <img src="./images/logo.webp" class="logo" alt="Hardik.io">
+      <span class="name"> Hardik</span>
+      <p class="io">.io</p>
+    </div>
+    <div class="right">
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Skill</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div><i class="fa-solid fa-bars menu"></i></div>
+      </div>
+    </div>
+  </nav>
+  <section class="startar">
+    <div class="info">
+      <p class="headline">WELCOME TO MY WORLD </p>
+      <p class="intro"> Hi !</p>
+      <div class="name">I am <span class="red">Hardik</span></div>
+      <span id="element" class="carrrier"></span>
+
+      <div class="define">I am a final-year Computer Engineering undergraduate with over three years of experience in
+        Full Stack Development and Computer Engineering. Proficient in frontend technologies (HTML, CSS, JavaScript,
+        Bootstrap) and backend technologies ( Express, Node).Skilled in working with databases like MySQL and
+        MongoDB. </div>
+      <div class="find-me">
+        <ul>
+          <a href="#">
+            <li><i class="fa-brands fa-instagram social"></i></li>
+          </a>
+          <a href="#">
+            <li><i class="fa-brands fa-github social"></i></li>
+          </a>
+          <a href="#">
+            <li><i class="fa-brands fa-linkedin-in social"></i></li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class=" pic">
+      <div class="profile"></div>
+    </div>
+  </section>
+
+  <hr>
+  <section class="skill">
+    <p class="red">SKILL</p>
+    <span class="intro">What I Do</span>
+
+    <div class="skill-list">
+      <div class="card">
+        <span class="logo"><i class="fa-solid fa-boxes-stacked"></i></span>
+        <span class="skill-name">Mern Stack</span>
+        <p class="skill-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque numquam quae unde Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit. Repellat dicta</soluta>
+        </p>
+      </div>
+      <div class="card">
+        <span class="logo"   onmouseover="showDescription()" onmouseout="hideDescription()" ><i class="fa-solid fa-video"></i></span>
+        <span class="skill-name">Video Editing</span>
+        <p class="skill-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque numquam quae unde soluta. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptate.
+        </p>
+      </div>
+      <div class="card">
+        <span class="logo"><i class="fa-solid fa-database"></i></span>
+        <span class="skill-name">Backend Developement</span>
+        <p class="skill-description" >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis doloremque numquam quae unde soluta. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
+      </div>
+
+  </section>
+  <hr>
+  <section class="portfolio">
+    <p class="red set">Visit my portfolio and keep your feedback</p>
+    <span class="intro">My Portfolio</span>
+    <div class="project">
+      <div class="card">
+        <div class="image1"></div>
+        <span class="tech">Frontend</span>
+        <span class="pro-name">Tic-Tac-Toe</span>
+      </div>
+      <div class="card">
+        <div class="image2"></div>
+        <span class="tech">Frontend</span>
+        <span class="pro-name">Anime-Character-Match</span>
+      </div>
+
+      <div class="card">
+        <div class="image3"></div>
+        <span class="tech">Fullstack</span>
+        <span class="pro-name">Weather Podcadting</span>
+      </div>
+
+      <div class="card">
+        <div class="image4"></div>
+        <span class="tech">Backend</span>
+        <span class="pro-name">Video Tube</span>
+      </div>
+
+      <div class="card">
+        <div class="image5"></div>
+        <span class="tech">Frontend</span>
+        <span class="pro-name">Spotify clone</span>
+      </div>
+
+      <div class="card">
+        <div class="image6"></div>
+        <span class="tech">Fullstack</span>
+        <span class="pro-name">E-commerce website</span>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="contact">
+    <p class="red set">CONTACT</p>
+    <span class="intro">Contact With Me..</span>
+    <div class="contact-saection">
+      <div class="detail">
+        <div class="image"></div>
+        <span class="me">Rana Hardik R.</span>
+        <p class="who">Full Stack Developer</p>
+        <p class="who">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Consequatur provident hic id, iste enim repudiandae blanditiis culpa
+          perspiciatis nesciunt deleniti.</eos>
+        </p>
+        <div class="e-mail">
+          <p class="who">E-mail :</p>
+          <p>hardik25rana@gmail.com</p>
+        </div>
+        <div class="phone">
+          <p class="who">Phone no. :</p>
+          <p>9898022257</p>
+        </div>
+      </div>
+      <div class="form-container">
+        <form class="form" action="/submit" method="POST">
+          <h2 class="form-title">Contact Us</h2>
+          <label>
+            <input class="input" type="text" placeholder="" required>
+            <span>Name</span>
+          </label>
+          <label>
+            <input class="input" type="tel" placeholder="" pattern="[0-9]{10}" required>
+            <span>Phone Number</span>
+          </label>
+          <label>
+            <input class="input" type="email" placeholder="" required>
+            <span>Email</span>
+          </label>
+          <label>
+            <input class="input sub" type="text" placeholder="" required>
+            <span>Subject</span>
+          </label>
+          <label>
+            <textarea class="input sub" rows="5" placeholder="" required></textarea>
+            <span>Message</span>
+          </label>
+
+          <button class="submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <hr>
+  <div class="footer">
+    <div class="image-f"></div>
+    <spa class="me">INBIO</spa>
+    <p class="define">&copy; Hardik Rana. All Rights Reserved By</p>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
